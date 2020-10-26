@@ -14,4 +14,4 @@ app.get("/:hi", function (req, res) {
   res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 });
 
-app.listen(3005);
+app.listen(process.env.PORT || 5000);
